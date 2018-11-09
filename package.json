@@ -6,7 +6,6 @@
     "build": "browserify -p tsify main.ts -o bundle.js",
     "prestart": "npm run-script build",
     "start": "http-server"
-    
   },
   "author": "Yan Paulo",
   "license": "ISC",
