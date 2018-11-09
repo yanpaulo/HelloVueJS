@@ -15,15 +15,15 @@
 <body>
     <div id="app">
         <div class="container">
-            <h1>Olá, {{ nome }}!</h1>
-            <p>Introdução a Vue.js</p>
+            <h1>Hello, {{ name }}!</h1>
+            <p>Introducton to Vue.js</p>
             <form class="form">
                 <div class="form-group">
-                    <label for="nome_txt">Nome</label>
-                    <input type="text" name="nome_txt" id="nome_txt" class="form-control" placeholder="Digite seu Nome" v-model="nome" >
+                    <label for="name_txt">Name</label>
+                    <input type="text" name="name_txt" id="name_txt" class="form-control" placeholder="Digite seu Nome" v-model="nome" >
                 </div>
 
-                <button type="button" class="btn btn-primary" v-on:click="clicado()">Exibir</button>
+                <button type="button" class="btn btn-primary" v-on:click="buttonClicked()">Greet</button>
             </form>
         </div>
     </div>

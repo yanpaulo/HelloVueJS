@@ -3,12 +3,12 @@ import Vue from "vue"
 let vue = new Vue({
     el: "#app",
     data: {
-        mensagem: "Hello, Vue!",
-        nome: ""
+        message: "Hello, Vue!",
+        name: ""
     },
     methods: {
-        clicado: function () {
-            alert(`Olá ${this.nome}!`);
+        buttonClicked: function () {
+            alert(`Hello, ${this.name}!`);
         }
     }
 });
