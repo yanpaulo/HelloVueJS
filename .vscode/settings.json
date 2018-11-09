@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        ".gitignore": true,
+        "bundle.js": true,
+        "node_modules/": true
+    }
+}

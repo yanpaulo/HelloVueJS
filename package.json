@@ -1,0 +1,23 @@
+{
+  "name": "helloviewjs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "browserify -p tsify main.ts -o bundle.js",
+    "prestart": "npm run-script build",
+    "start": "http-server"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "tsify": "^4.0.0",
+    "typescript": "^3.1.6"
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  }
+}
