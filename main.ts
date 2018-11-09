@@ -8,7 +8,7 @@ let vue = new Vue({
     },
     methods: {
         clicado: function () {
-            alert("Olá, " + this.nome);
+            alert(`Olá ${this.nome}!`);
         }
     }
 });
