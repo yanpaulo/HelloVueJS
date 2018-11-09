@@ -40,7 +40,7 @@ http://127.0.0.1:8080
 
 ```
 
-##References
+## References
 
 * [Vue.js](https://vuejs.org/v2/guide/) - Vue.js docs
 * [Typescript](https://www.typescriptlang.org/docs/home.html) - Typescript docs
