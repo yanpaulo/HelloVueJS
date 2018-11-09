@@ -1,14 +1,14 @@
 {
-  "name": "helloviewjs",
+  "name": "hello-vue-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo project and starter template for Vue.js apps using Typescript.",
   "scripts": {
     "build": "browserify -p tsify main.ts -o bundle.js",
     "prestart": "npm run-script build",
     "start": "http-server"
     
   },
-  "author": "",
+  "author": "Yan Paulo",
   "license": "ISC",
   "dependencies": {
     "vue": "^2.5.17"
